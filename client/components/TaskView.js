@@ -49,7 +49,10 @@ export default function TaskView() {
 
   const [sound, setSound] = React.useState();
 
-  const audioFiles = ['1', '2', '3'];
+  const devaudioFiles = ['../assets/Sounds/Audio-1.mp3', '../assets/Sounds/Audio-1.mp3', '../assets/Sounds/Audio-1.mp3'];
+  const indiamomaudioFiles = ['../assets/Sounds/Audio-1.mp3', '../assets/Sounds/Audio-1.mp3', '../assets/Sounds/Audio-1.mp3'];
+  const indiadevFiles = ['../assets/Sounds/Audio-1.mp3', '../assets/Sounds/Audio-1.mp3', '../assets/Sounds/Audio-1.mp3'];
+
   let paused = false;
 
 
@@ -71,6 +74,7 @@ export default function TaskView() {
           await sound.playAsync();
           }
           else{
+            paused = false;
           }
         }catch(e){
           console.log("Error here")
@@ -85,6 +89,7 @@ export default function TaskView() {
           await sound.playAsync();
           }
           else{
+            paused=false;
           }
         }catch(e){
             console.log("Error here 2")
@@ -99,6 +104,7 @@ export default function TaskView() {
           await sound.playAsync();
           }
           else{
+            paused=false;
 
           }
         }catch(e){
@@ -120,6 +126,7 @@ export default function TaskView() {
     playSound(num+1);
     }
     else{
+      paused=false;
     }
     }
 
@@ -134,7 +141,7 @@ export default function TaskView() {
         playSound(1);
       }
       else{
-
+          paused=false;
       }
     }
 
