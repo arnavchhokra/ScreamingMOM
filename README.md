@@ -1,7 +1,14 @@
-**Screaming: Your Personal Pomodoro Timer**
 ![image](https://github.com/arnavchhokra/ScreamingMOM/assets/64744694/219d3372-50f2-4a59-97b7-a63374cd1cab)
 ![image](https://github.com/arnavchhokra/ScreamingMOM/assets/64744694/f0c212ea-2b5a-4371-98b0-15396a822b22)
 ![image](https://github.com/arnavchhokra/ScreamingMOM/assets/64744694/ff61ce11-ae8e-4dd6-a446-5bc18a7c6f62)
+
+
+
+
+
+
+
+**Screaming: Your Personal Pomodoro Timer**
 
 Welcome to Screaming, the React Native app that enhances your productivity with a personal touch. With Screaming, you can harness the familiar and motivating sound of your mom's voice to power through tasks effectively using the Pomodoro technique.
 
