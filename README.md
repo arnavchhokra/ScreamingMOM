@@ -55,7 +55,7 @@ npm install
 4. Run the app:
 
 ```
-npm start
+expo start
 ```
 
 ### Contributing:
